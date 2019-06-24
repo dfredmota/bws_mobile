@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:id="@+id/textLocacao"
+        android:layout_centerHorizontal="true"
+        android:text="Selecione os Materiais para locação:" android:textSize="20sp" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textLocacao"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:id="@+id/text_sem_carga"
+        android:text="Não há materiais na carga." android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/findSelectedMaterialLocacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_sem_carga_estoque"
+        android:text="Avançar" />
+
+    <ListView android:id="@+id/listView1MaterialLocacao" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

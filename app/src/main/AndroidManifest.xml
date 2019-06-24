@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developersd3.bwsmobile">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_fundo_cinza"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginAct"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MenuAct"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SubMenuAlmoxarifadoAct"
+            android:label=" "
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.FerramentaEntregaAct"
+            android:label=" "
+            android:parentActivityName=".activity.HomeAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SubMenuFerramentas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.FerramentaEntregaResumoAct"
+            android:label=" "
+            android:parentActivityName=".activity.HomeAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EstoqueMovimentacaoAct"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EstoqueMovimentacaoResumoAct"
+            android:label=" "
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SubMenuLocacoes"
+            android:label="@string/title_activity_sub_menu_locacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.LocacaoAct"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DevolucaoLocacaoAct"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SincronizarAct"
+            android:label=" "
+            android:parentActivityName=".activity.HomeAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TipoTransferencia"
+            android:parentActivityName=".activity.HomeAct"
+            android:label="@string/title_activity_tipo_transferencia" />
+        <activity
+            android:name=".activity.ConfirmaPermissaoAct"
+            android:label="@string/title_activity_confirma_permissao"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.HomeAct"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".activity.ConfirmaPermissaoAct$SplashAcreenAct" />
+        <activity android:name=".activity.SplashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

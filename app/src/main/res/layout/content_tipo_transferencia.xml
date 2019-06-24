@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cinzaEscuro"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="SELECIONE O TIPO DE TRANSFERÊNCIA"/>
+
+    <Spinner
+        android:id="@+id/spinnerMedida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/verde_claro"
+        android:backgroundTintMode="@color/verde_claro"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cinzaEscuro"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="SELECIONE O TIPO DE OPERAÇÃO"/>
+
+    <Spinner
+        android:id="@+id/spinnerTipoOperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/verde_claro"
+        android:backgroundTintMode="@color/verde_claro"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/comboEntregador"
+        android:layout_width="fill_parent"
+        android:hint="ENTREGADOR"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:completionHint="Selecione o Entregador" />
+
+   <Button
+        android:id="@+id/btn_avancar"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textSize="14sp"
+        android:text="Avançar"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:id="@+id/viewLoginBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

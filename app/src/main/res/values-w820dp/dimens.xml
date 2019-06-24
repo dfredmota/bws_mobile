@@ -1,0 +1,46 @@
+<resources>
+    <dimen name="hairline">1px</dimen>
+    <dimen name="d2">2dp</dimen>
+    <dimen name="d3">3dp</dimen>
+    <dimen name="d4">4dp</dimen>
+    <dimen name="d5">5dp</dimen>
+    <dimen name="d10">10dp</dimen>
+    <dimen name="d12">12dp</dimen>
+    <dimen name="d15">15dp</dimen>
+    <dimen name="d20">20dp</dimen>
+    <dimen name="d25">25dp</dimen>
+    <dimen name="d30">30dp</dimen>
+    <dimen name="d35">35dp</dimen>
+    <dimen name="d40">40dp</dimen>
+    <dimen name="d45">45dp</dimen>
+    <dimen name="d50">50dp</dimen>
+
+    <dimen name="s9micro">9sp</dimen>
+    <dimen name="s11tiny">11sp</dimen>
+    <dimen name="s12tiny">12sp</dimen>
+    <dimen name="s13small">13sp</dimen>
+    <dimen name="s14small">14sp</dimen>
+    <dimen name="s15regular">15sp</dimen>
+    <dimen name="s16big">16sp</dimen>
+    <dimen name="s17large">17sp</dimen>
+    <dimen name="s18large">18sp</dimen>
+    <dimen name="s19huge">19sp</dimen>
+    <dimen name="s20huge">20sp</dimen>
+    <dimen name="s21giant">21sp</dimen>
+    <dimen name="s22giant">22sp</dimen>
+    <dimen name="s23colossal">23sp</dimen>
+    <dimen name="s24colossal">24sp</dimen>
+    <dimen name="d80">80dp</dimen>
+
+    <dimen name="abaHeight">47dp</dimen>
+    <dimen name="abaHeight2">27dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="margin25">25dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+</resources>

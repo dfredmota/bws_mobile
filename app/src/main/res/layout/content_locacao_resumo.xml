@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.developersd3.bwsmobile.activity.LocacaoResumoAct"
+    tools:showIn="@layout/activity_locacao_resumo">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dados_colaborador_epi"
+        android:text="" android:textSize="20sp" />
+
+       <AutoCompleteTextView
+        android:id="@+id/comboFornecedores"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Fornecedor"
+        android:layout_below="@+id/dados_colaborador_epi"
+        android:completionHint="Selecione o Fornecedor"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/comboPrazos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Prazo da Locação"
+        android:layout_below="@+id/comboFornecedores"
+        android:completionHint="Selecione o Prazo"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/comboResponsaveis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Motorista"
+        android:layout_below="@+id/comboPrazos"
+        android:completionHint="Motorista"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nº Contrato"
+        android:layout_below="@+id/comboResponsaveis"
+        android:id="@+id/numContrato" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Valor Locação"
+        android:layout_below="@+id/numContrato"
+        android:id="@+id/valorLocacao" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/valorLocacao"
+        android:id="@+id/materiais_seleciondos"
+        android:text="MATERIAIS SELECIONADOS" android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materiais_seleciondos"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/materiais_seleciondos_list" />
+
+    <Button
+        android:id="@+id/executarLocacaoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valorLocacao"
+        android:background="@drawable/btn_arredondado_verde"
+        android:textColor="@color/white"
+        android:text="Executar" />
+
+</RelativeLayout>

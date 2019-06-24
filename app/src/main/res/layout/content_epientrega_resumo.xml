@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.developersd3.bwsmobile.activity.EPIEntregaResumoActivity"
+    tools:showIn="@layout/activity_epientrega_resumo">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dados_colaborador_epi"
+        android:text="" android:textSize="20sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/comboColaboradores_epi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Entregador"
+        android:layout_below="@+id/dados_colaborador_epi"
+        android:completionHint="Selecione o Entregador Responsável"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/comboRecebedor_epi"
+        android:layout_width="fill_parent"
+        android:hint="Funcionário Responsável"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:completionHint="Selecione o Funcionário Responsável"
+        android:layout_below="@+id/comboColaboradores_epi" />
+
+    <AutoCompleteTextView
+        android:id="@+id/comboCentroCusto_epi"
+        android:layout_width="fill_parent"
+        android:hint="Obra"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:layout_below="@+id/comboRecebedor_epi" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/comboCentroCusto_epi"
+        android:id="@+id/epi_selecionadas"
+        android:text="EPI SELECIONADAS" android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epi_selecionadas"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/epiList" />
+
+    <Button
+        android:id="@+id/findSelectedEPI"
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_arredondado_verde"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epiList"
+        android:text="Executar" />
+
+</RelativeLayout>

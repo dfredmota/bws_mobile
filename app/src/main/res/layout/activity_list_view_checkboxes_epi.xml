@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:id="@+id/textEPI"
+        android:layout_centerHorizontal="true"
+        android:text="SELECIONE OS ITENS PARA TRANSFERÊNCIA"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/findSelectedEPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_sem_carga"
+        android:background="@drawable/btn_arredondado_verde"
+        android:textColor="@color/white"
+        android:text="Avançar" />
+
+    <ListView android:id="@+id/listView1EPI" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

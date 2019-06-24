@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.developersd3.bwsmobile.activity.EstoqueMovimentacaoResumoAct"
+    tools:showIn="@layout/activity_estoque_movimentacao_resumo">
+
+    <AutoCompleteTextView
+        android:id="@+id/comboCentroCusto_estoque_origem"
+        android:layout_width="fill_parent"
+        android:hint="Obra Origem"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1" />
+
+    <AutoCompleteTextView
+        android:id="@+id/comboCentroCusto_estoque_destino"
+        android:layout_width="fill_parent"
+        android:hint="Obra Destino"
+        android:layout_below="@+id/comboCentroCusto_estoque_origem"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1" />
+
+    <AutoCompleteTextView
+        android:id="@+id/comboResponsavelOrigem_estoque"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Responsável Origem"
+        android:layout_below="@+id/comboCentroCusto_estoque_destino"
+        android:completionHint="Selecione o Responsável"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/comboResponsavelDestino_estoque"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:hint="Responsável Destino"
+        android:layout_below="@+id/comboResponsavelOrigem_estoque"
+        android:completionHint="Selecione o Responsável"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/comboResponsavelDestino_estoque"
+        android:id="@+id/estoque_selecionado"
+        android:text="ESTOQUE SELECIONADO" android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estoque_selecionado"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/estoqueList" />
+
+    <Button
+        android:id="@+id/findSelectedEstoque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estoqueList"
+        android:background="@drawable/btn_arredondado_verde"
+        android:textColor="@color/white"
+        android:text="Executar" />
+
+</RelativeLayout>

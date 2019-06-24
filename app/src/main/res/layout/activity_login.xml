@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quaseBranco">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:background="@color/quaseBranco"
+        android:src="@drawable/bws_logo_inicial"
+        android:textColor="@color/verde_claro"
+        android:layout_marginBottom="80dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:hint="@string/usuario_txt"
+            android:ellipsize="start"
+            android:drawableLeft="@drawable/login"
+            android:drawablePadding="12dip"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:imeOptions="actionUnspecified"
+            android:singleLine="true"
+            android:textColor="@color/quasePreto"
+            android:gravity="start"
+            android:textColorHint="@color/cinzaEscuro"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:hint="@string/senha_txt"
+            android:drawablePadding="12dip"
+            android:drawableLeft="@drawable/senha"
+            android:padding="10dp"
+            android:ellipsize="start"
+            android:gravity="start"
+            android:imeOptions="actionUnspecified"
+            android:singleLine="true"
+            android:textColor="@color/quasePreto"
+            android:inputType="textPassword"
+            android:textColorHint="@color/cinzaEscuro"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:text="@string/btn_entrar_txt"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <View
+        android:id="@+id/viewLoginBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

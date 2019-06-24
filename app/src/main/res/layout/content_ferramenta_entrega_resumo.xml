@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dados_colaborador"
+        android:text="" android:textSize="20sp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/comboRecebedor"
+        android:layout_width="fill_parent"
+        android:hint="RECEBEDOR"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:completionHint="Selecione o Funcionário Responsável" />
+
+    <AutoCompleteTextView
+        android:id="@+id/comboCentroCusto"
+        android:layout_width="fill_parent"
+        android:hint="Obra"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ferramentas_seleciondas"
+        android:text="ITENS SELECIONADOS" android:textSize="15sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:textSize="15dp"
+        android:id="@+id/ferramentasList" />
+
+    <Button
+        android:id="@+id/findSelected"
+        android:text="Executar"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

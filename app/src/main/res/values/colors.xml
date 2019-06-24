@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1c1717</color>
+    <color name="violet">#4c1b1a</color>
+    <color name="red">#ef2306</color>
+    <color name="orange">#f56a05</color>
+    <color name="yellow">#f7fd08</color>
+
+    <!--blue theme
+    <color name="blue">#72bebf</color>
+    <color name="blue2">#7fcbcb</color>
+    <color name="beje">#dbd494</color>
+    <color name="green1">#c3dd97</color>
+    <color name="green2">#a7df9a</color>
+    -->
+
+    <!--green-theme-->
+    <color name="blue1">#075E54</color>
+
+
+    <color name="green">#833233</color>
+    <color name="green2">#32885f</color>
+    <color name="green3">#338d7c</color>
+    <color name="blue2">#ffffff</color>
+    <color name="whiteText">#338d7c</color>
+
+    <color name="colorPrimary">#561948</color>
+    <color name="colorPrimaryDark">#480439</color>
+    <color name="colorAccent">#fc7338</color>
+
+
+    <color name="quasePreto">#3f1236</color>
+    <color name="cinzaEscuro">#7b7579</color>
+    <color name="cinza">#b8b8b8</color>
+    <color name="cinzaClaro">#e4e5e5</color>
+    <color name="quaseBranco">#f4f6f6</color>
+    <color name="branco">#ffffff</color>
+
+    <color name="muscular">#45c0b8</color>
+    <color name="cardio">#ee3869</color>
+    <color name="misto">#5678bb</color>
+
+    <color name="verde_claro">#62bc54</color>
+    <color name="perfil_superacoes">#e13331</color>
+    <color name="perfil_desafios">#e1d731</color>
+    <color name="perfil_exercicios">#4673b9</color>
+    <color name="perfil_distancia">#bc4f9d</color>
+    <color name="perfil_tempo">#5652a3</color>
+    <color name="perfil_pace">#60c4b7</color>
+
+    <color name="perfil_treinos_excedido">#47843d</color>
+    <color name="perfil_superacoes_excedido">#a02525</color>
+    <color name="perfil_desafios_excedido">#a88629</color>
+    <color name="perfil_exercicios_excedido">#314e7a</color>
+    <color name="perfil_distancia_excedido">#843a73</color>
+    <color name="perfil_tempo_excedido">#363666</color>
+    <color name="perfil_pace_excedido">#45877c</color>
+
+    <color name="vinho">#bb0000</color>
+    <color name="verde">#008800</color>
+
+
+    <color name="brancoTransparente">#bbffffff</color>
+    <color name="pretoTransparente">#55000000</color>
+</resources>

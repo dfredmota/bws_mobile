@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_almoxarifado"
+            android:icon="@mipmap/almoxarifado"
+            android:title="Almoxarifado" />
+        <item
+            android:id="@+id/nav_manutencao"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Manutenção" />
+        <item
+            android:id="@+id/nav_abastecimento"
+            android:icon="@mipmap/abastecimento"
+            android:title="Abastecimento" />
+        <item
+            android:id="@+id/nav_frota"
+            android:icon="@mipmap/frota"
+            android:title="Uso de Frota" />
+
+        <item
+            android:id="@+id/nav_cartoes"
+            android:icon="@mipmap/credit_card"
+            android:title="Cartões" />
+
+        <item
+            android:id="@+id/nav_protocolo"
+            android:icon="@mipmap/protocolo"
+            android:title="Protocolo" />
+
+        <item
+            android:id="@+id/nav_sincronize"
+            android:icon="@mipmap/sincronize"
+            android:title="Sincronizar" />
+
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@mipmap/exit"
+            android:title="Sair" />
+    </group>
+
+</menu>

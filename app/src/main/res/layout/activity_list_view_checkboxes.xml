@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+   <TextView
+        android:id="@+id/selecione_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cinzaEscuro"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="20dp"
+        android:text="SELECIONE O TIPO DE TRANSFERÊNCIA"/>
+
+   <Button
+        android:id="@+id/findSelected"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textSize="14sp"
+        android:text="Avançar"
+       android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView android:id="@+id/listView1" android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="fill_parent" />
+
+
+
+</LinearLayout>

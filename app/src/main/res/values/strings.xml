@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">BWS MOBILE</string>
+    <string name="app_name_menu">BWS MOBILE - MENU</string>
+    <string name="app_name_ferramentas">BWS MOBILE - FERRAMENTAS</string>
+    <string name="app_name_patromonio">BWS MOBILE - PATRIMONIO</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="id_login_txt">LOGIN</string>
+    <string name="senha_txt">********</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="login_txt">Entrar</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="almoxarifado_txt">Almoxarifado</string>
+    <string name="manutencao_txt">Manutencao</string>
+    <string name="abastecimento_txt">Abastecimento</string>
+    <string name="usofrota_txt">Uso de Frota</string>
+    <string name="cartoes_txt">Cartões</string>
+    <string name="protocolo_txt">Protocolo</string>
+    <string name="cadastros_txt">Cadastros</string>
+    <string name="ferramenta_txt">Ferramentas</string>
+    <string name="sincronizar_txt">Sincronizar</string>
+    <string name="entrega_txt">Entrega</string>
+    <string name="patrimonio_txt">Patrimônio</string>
+    <string name="epi_txt">Epi</string>
+    <string name="estoque_txt">Estoque</string>
+    <string name="locacao_txt">Locação</string>
+    <string name="devolucao_txt">Devolução</string>
+    <string name="title_activity_sub_menu_almoxarifado">Menu de Almoxarifado</string>
+    <string name="title_activity_sub_menu_ferramentas">Menu de Ferramentas</string>
+    <string name="recebimento_txt">Recebimento</string>
+    <string name="title_activity_sub_menu_patrimonio">Menu Patrimônio</string>
+    <string name="title_activity_ferramenta_entrega_resumo">Resumo - Entrega</string>
+    <string name="title_activity_sub_menu_cadastro_almoxarife">Almoxarife - Cadastros</string>
+    <string name="almoxarife_txt">Almoxarife</string>
+    <string name="title_activity_ferramenta_recebimento">Ferramentas - Recebimento</string>
+    <string name="title_activity_patrimonio_entrega">Patrimonio - Entrega</string>
+    <string name="title_activity_patrimonio_recebimento">Patrimonio - Recebimento</string>
+    <string name="title_activity_patrimonio_entrega_resumo">Patrimonio - Resumo da Entrega</string>
+    <string name="title_activity_sub_menu_epi">Epi - Menu</string>
+    <string name="title_activity_epientrega">Epi - Entrega</string>
+    <string name="title_activity_epientrega_resumo">Epi - Resumo da Entrega</string>
+    <string name="title_activity_epirecebimento">Epi - Recebimento</string>
+    <string name="title_activity_estoque_movimentacao">Epi - Recebimento</string>
+    <string name="title_activity_estoque_movimentacao_resumo">Estoque - Movimentação
+    </string>
+    <string name="title_activity_sub_menu_locacoes">Menu de Locações</string>
+    <string name="title_activity_locacao">Locações</string>
+    <string name="title_activity_devolucao_locacao">Locações - Devolução</string>
+    <string name="title_activity_locacao_resumo">Resumo da Locação</string>
+    <string name="title_activity_sincronizar">Sincronizar Dados </string>
+    <string name="transferencia_txt">Transferência</string>
+    <string name="title_activity_tipo_transferencia">Tipo de Transferencia</string>
+    <string name="meta_position">meta_position</string>
+    <string name="meta_title">meta_title</string>
+    <string name="tpTransferencia">Tipo de Transferência</string>
+
+    <string name="permisao_txt">Para o funcionamento correto é necessário permitir que o BWS MOBILE acesse arquivos do dispositivo.</string>
+    <string name="confirmar_txt">Confirmar</string>
+    <string name="sair_txt">Sair</string>
+    <string name="title_activity_permissao">PermissaoActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_confirma_permissao">ConfirmaPermissaoActivity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home">HomeAct</string>
+    <string name="usuario_txt">Usuário</string>
+    <string name="btn_entrar_txt">Entrar</string>
+
+
+</resources>
